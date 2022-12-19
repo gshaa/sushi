@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="main-container">
+      <div class="main-nav-container">
         <div class="nav-1"></div>
         <div class="nav-container">
           <nav class="navbar">
@@ -30,9 +30,9 @@
               <label for="checkbox_toggle" class="hamburger">&#9776</label>
               <div class="menu">
               <li> <a href="#">Home</a> </li>
-              <li> <a href="#">About us</a> </li>
-              <li> <a href="#">Popular</a> </li>
-              <li> <a href="#">Recently</a> </li>
+              <li> <a href="#about-us">About us</a> </li>
+              <li> <a href="#popular">Popular</a> </li>
+              <li> <a href="#recently">Recently</a> </li>
               </div>
             </ul>
           </nav>
@@ -44,7 +44,7 @@
       <div class="section-main">
         <div class="section-grid-1"></div>
         <div class="section-grid-2">
-          <div class="home-container">
+          <div class="home-container" >
             <div class="home-cont-1">
               <p class="KohSantepheap">Enjoy Delicious</p>
               <div class="sushi-header">
@@ -61,7 +61,7 @@
               <img src="images/home-sushi-rolls.png" alt="...">
             </div>
           </div>
-          <div class="about-us-container">
+          <div class="about-us-container" id="about-us">
             <div class="about-us-cont-1">
               <img src="images/about-sushi1.png" alt="..." style="height: 420px;">
             </div>
@@ -79,7 +79,7 @@
               <p class="padingtop2" style="color: #2A2521; font-family: Poppins, serif; font-size: 25px;">Food comes to us from our relatives whether they have wings  or roots . This is how we consider food. It also has a culture. It has a history that passes from generation to genneration.</p>
             </div>
           </div>
-          <div class="popular-sets-container">
+          <div class="popular-sets-container" id="popular">
             <div class="popular-sets-cont-text">
               <p style="color: #FF8F1E; font-family: khula, serif; font-size: 40px;">The Best Food</p>
               <p class="popular-sets-cont-text-2" style="color: #2A2521; font-size: 76px; font-family:  Koh Santepheap, serif;">Popular Dishes</p>
@@ -108,14 +108,14 @@
                 </article>
               </div>
             </div>
-          <div class="recently-container">
+          <div class="recently-container" id="recently">
               <div class="recently-text-container">
                 <p style="color: #FF8F1E; font-family: Khula, serif; font-size: 40px;">Recently Added</p>
                 <div class="recently-header">
                   <p style="color: #2A2521; font-family: Koh Santepheap, serif; font-size: 60px;" class="padingtop2">Sushi Samurai
                     Salmorn Cheese
                   </p>
-                  <img class="home-sushi-title1  padingtop2" src="/images/spinach-leaf.png" alt="..." style="height: 80px;">
+                  <img class="home-sushi-title1  padingtop2" src="images/spinach-leaf.png" alt="..." style="height: 80px;">
                 </div>
                 <p class="Poppins home-cont-1-bio  padingtop2">Take a look at what's new . And do not depreve yourself of a good meal, enjoy and be happy.</p>
                 <a class="button">Order Now &#8250;
@@ -132,13 +132,15 @@
                 <div class="newsletter-text-container">
                   <p style="color: #FF8F1E; font-size: 40px; font-family: Khula, serif;">Newsletter</p>
                   <p style="color: #ffffff; font-size: 50px; font-family: Koh Santepheap; font-weight: bold;">Subscribe for latest update</p>
-                  <form action="">
-                    <label for="email"></label>
-                    <input id="email" type="email" placeholder="Enter Email"/>
-                    <input type="submit" value="Subscribe">
+                  <form action="" class="newsletter-form">
+                    <input class="newsletter-input" type="email" placeholder="Enter Email"/>
+                    <button class="newsletter-buttom">  
+                      Subscribe &#9993;
+                    </button>
                   </form>
+                </div>
+                <img class="spinach-for-newsletter" src="/images/spinach-leaf2.png" alt="..." style="height: 150px;">
               </div>
-            </div>
           </div>
         </div>
         <div class="section-grid-3"></div>
