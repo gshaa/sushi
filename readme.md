@@ -3,5 +3,5 @@ https://www.figma.com/file/o8Gb0pH7cYETexg7UUYIvZ/Sushi-Restaurant-Design-(Commu
 
 Made it adaptive for different devices.
 
-link for my work:
+link to my work:
 https://gshaa.github.io/sushi/
