@@ -886,6 +886,9 @@ a {
   .Poppins {
     font-size: 16px;
   }
+  .popular-card:hover {
+    transform: none;
+  }
   .popular-sets-container {
     padding-top: 4rem;
   }
