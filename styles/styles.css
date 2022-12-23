@@ -20,6 +20,66 @@
   font-family: Khula, serif;
 }
 
+/* background images */
+
+.section-main {
+  position: relative;
+}
+
+.background-img-1 {
+  position: absolute;
+  left: 0;
+  top: 3%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.background-img-2 {
+  transform: scale(-1, 1);
+  position: absolute;
+  right: 0;
+  top: 10%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.background-img-3 {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  opacity: 0.6;
+  height: 440px;
+  z-index: -1;
+}
+
+.background-img-4 {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.background-img-5 {
+  transform: scale(-1, 1);
+  transform: scale(-1, -1);
+  position: absolute;
+  right: 0;
+  top: 63%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.background-img-6 {
+  position: absolute;
+  left: 0;
+  top: 81%;
+  transform: scale(-1, 1);
+  opacity: 0.6;
+  z-index: -1;
+  height: 440px;
+}
+
 body {
   background-color: #fff1eb;
 }
@@ -306,6 +366,7 @@ input[type="checkbox"] {
 }
 
 .popular-card {
+  transition: all 0.5s ease;
   position: relative;
   background-color: var(--container-color);
   padding: 7rem 2rem 1.5rem;
@@ -313,6 +374,9 @@ input[type="checkbox"] {
   border-radius: 1rem;
   text-align: center;
   cursor: pointer;
+}
+.popular-card:hover {
+  transform: scale(1.1);
 }
 
 .popular-image {
@@ -736,6 +800,36 @@ a {
 /* mobile adaptive */
 
 @media (max-width: 500px) {
+  /* background images */
+  .background-img-1 {
+    margin: -1rem;
+    height: 120px;
+  }
+  .background-img-2 {
+    margin: -1rem;
+    height: 130px;
+  }
+  .background-img-3 {
+    margin: -1rem;
+    height: 250px;
+    top: 15%;
+  }
+  .background-img-4 {
+    margin: -1rem;
+    height: 130px;
+    top: 30%;
+  }
+  .background-img-5 {
+    margin: -1rem;
+    height: 120px;
+    top: 68%;
+  }
+  .background-img-6 {
+    margin: -1rem;
+    height: 250px;
+    top: 82%;
+  }
+
   section {
     margin-left: 1rem;
     margin-right: 1rem;
