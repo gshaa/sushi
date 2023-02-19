@@ -20,6 +20,8 @@
   font-family: Khula, serif;
 }
 
+/* animation */
+
 /* background images */
 
 .section-main {
@@ -178,6 +180,10 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 900px) {
+  .main-nav-container {
+    position: fixed;
+  }
+
   .menu {
     display: none;
     position: absolute;
@@ -199,7 +205,9 @@ input[type="checkbox"] {
 
   input[type="checkbox"]:checked ~ .menu {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
+    align-content: center;
+    height: 100vh;
   }
 
   .hamburger {
@@ -210,10 +218,13 @@ input[type="checkbox"] {
 
 /* SECTION */
 
+#home {
+  padding-top: 8rem;
+}
+
 .section-main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  padding-top: 8rem;
 }
 
 .section-grid-1 {
@@ -834,9 +845,7 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .main-nav-container {
-    position: absolute;
-  }
+
   .nav-1 {
     display: none;
   }
